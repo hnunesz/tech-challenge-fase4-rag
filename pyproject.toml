@@ -1,0 +1,21 @@
+[project]
+name = "voc-rag"
+version = "0.1.0"
+description = "Voice of Customer Intelligence com RAG sobre as avaliações da Olist"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.15.0",
+    "chromadb>=1.5.9",
+    "pandas>=3.0.6",
+    "pyarrow>=26.0.0",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+    "sentence-transformers>=6.2.0",
+    "streamlit>=1.66.0",
+    "torch>=2.14.1",
+    "transformers>=5.20.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
