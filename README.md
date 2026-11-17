@@ -1,5 +1,7 @@
 # Voice of Customer Intelligence — Sistema RAG para avaliações da Olist
 
+Link da apresentação: https://youtu.be/Kf3GUihSs8M
+
 Projeto desenvolvido no **Tech Challenge — Fase 4** com o objetivo de facilitar a consulta e a análise de avaliações de clientes de um e-commerce. A solução utiliza **Retrieval-Augmented Generation (RAG)** para permitir que uma pessoa faça perguntas em linguagem natural e receba respostas fundamentadas em avaliações reais da base, com referências às evidências utilizadas.
 
 Em vez de depender apenas do conhecimento geral de um modelo de linguagem, o sistema primeiro recupera comentários relevantes da base da Olist e, em seguida, utiliza esse conteúdo como contexto para elaborar a resposta. Quando não encontra evidências suficientes ou a pergunta não pertence ao escopo dos dados, o sistema informa que não consegue responder com segurança.
